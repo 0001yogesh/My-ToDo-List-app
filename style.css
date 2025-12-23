@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 40px;
+    background-color: #f9f9f9;
+}
+
+.todo-input {
+    margin-bottom: 15px;
+}
+
+input {
+    padding: 10px;
+    width: 250px;
+}
+
+button {
+    padding: 8px 12px;
+    margin-left: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #ddd;
+}
+
+button:hover {
+    background-color: #ccc;
+}
+
+ul {
+    padding: 0;
+    max-width: 450px;
+    margin: auto;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+li span {
+    flex: 1;
+    text-align: left;
+}
+
+.completed span {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.edit-btn {
+    background-color: #87ceeb;
+}
+
+.delete-btn {
+    background-color: #f08080;
+}
